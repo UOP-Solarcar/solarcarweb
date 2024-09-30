@@ -1,5 +1,6 @@
 import insta from "@/assets/insta.png";
 import logo from "@/assets/logo.png";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -8,7 +9,11 @@ export default function Footer() {
                 <div className="h-[450px] bg-black w-[800px] flex flex-row p-[50px] self-center">
                     <div className="w-[400px] flex-col">
                         <div className="font-bold">Team email: </div>
-                        <div className="font-normal">uopsolarcar@gmail.com</div>
+                        <div className="font-normal underline">
+                            <Link
+                                href={"mailto:uopsolarcar@gmail.com"}
+                            >{`uopsolarcar@gmail.com`}</Link>
+                        </div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Located at: </div>
                         <div className="font-normal whitespace-pre-line">
@@ -25,9 +30,10 @@ export default function Footer() {
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Faculty Advisor:</div>
                         <div className="font-normal whitespace-pre-line">{`Dongbin Lee`}</div>
-                        <div className="font-normal underline whitespace-pre-line">{`dlee4@pacific.edu`}</div>
+                        <div className="font-normal underline whitespace-pre-line">
+                            <Link href="mailto:dlee4@pacific.edu">{`dlee4@pacific.edu`}</Link>
+                        </div>
                         <div className="h-[20px]"></div>
-                        <div className="font-normal underline whitespace-pre-line">{`More contact information`}</div>
                     </div>
                     <div className="w-[20px]"></div>
                     <div className="grow flex-col h-full flex justify-center">
@@ -44,7 +50,14 @@ export default function Footer() {
                             </div>
                             <div className="w-[10px]"></div>
                             <div className="h-[30px] pl-[20px] pr-[20px] rounded-md flex items-center bg-[#450696]">
-                                @pacific.solarcar
+                                <Link
+                                    href={
+                                        "https://www.instagram.com/pacific.solarcar/"
+                                    }
+                                    target="_blank"
+                                >
+                                    @pacific.solarcar
+                                </Link>
                             </div>
                         </div>
                         <div className="h-[200px] w-[200px]">
