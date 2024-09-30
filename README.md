@@ -2,6 +2,12 @@
 
 The Pacific Solar Car web repo. Made with blood and tears, in Next JS.
 
+## Notes
+
+To get started, create a new branch and work from there. Once you have a solid design and the site is functioning well, send a message to ZED (@shiroekuroha) for permission to push to production.
+
+Refrain from adding more modules.
+
 ## Getting Started
 
 First, run the development server:
