@@ -5,16 +5,20 @@ export default function Footer() {
     return (
         <>
             <div className="w-full bg-black flex items-center justify-center">
-                <div className="h-[450px] bg-black w-[900px] flex flex-row p-[20px] self-center">
-                    <div className="w-[345px] flex-col">
+                <div className="h-[450px] bg-black w-[800px] flex flex-row p-[50px] self-center">
+                    <div className="w-[400px] flex-col">
                         <div className="font-bold">Team email: </div>
                         <div className="font-normal">uopsolarcar@gmail.com</div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Located at: </div>
-                        <div className="font-normal whitespace-pre-line">{`School of Engineering and Computer Science
-ATTN: Pacific Solar Car Club
-3601 Pacific Ave
-Stockton, CA 95211`}</div>
+                        <div className="font-normal whitespace-pre-line">
+                            {`
+                                School of Engineering and Computer Science
+                                ATTN: Pacific Solar Car Club
+                                3601 Pacific Ave
+                                Stockton, CA 95211
+                            `}
+                        </div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Telephone:</div>
                         <div className="font-normal whitespace-pre-line">{`+1 ***-***-****`}</div>
@@ -43,11 +47,11 @@ Stockton, CA 95211`}</div>
                                 @pacific.solarcar
                             </div>
                         </div>
+                        <div className="h-[200px] w-[200px]">
+                            <img src={logo.src}></img>
+                        </div>
                     </div>
                     <div className="w-[20px]"></div>
-                    <div className="h-[200px] w-[200px] self-center">
-                        <img src={logo.src}></img>
-                    </div>
                 </div>
             </div>
         </>

@@ -13,6 +13,7 @@ const config: Config = {
                 foreground: "var(--foreground)",
                 primary: "#ff5c02",
                 secondary: "#a333d6",
+                tertiary: "#c1e288"
             },
         },
         fontFamily: {

@@ -1,25 +1,48 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+
 import Link from "next/link";
 import Divider from "./divider";
 
+
+
 export default function Header(props: any) {
+    const path = usePathname();
+
     function HeaderButton(props: any) {
+        let active: boolean = (path == props.href);
+    
         return (
-            <Link
-                href={props.href}
-                className={`h-full hover:bg-secondary cursor-pointer flex items-center pl-4 pr-4`}
-            >
-                {props.page}
-            </Link>
+            <>
+                {active ? (
+                    <Link
+                        href={props.href}
+                        className={`h-5/6 rounded-md bg-primary text-black hover:bg-secondary cursor-pointer flex items-center pl-4 pr-4 mr-2`}
+                    >
+                        {props.page}
+                    </Link>
+                ) : (
+                    <Link
+                        href={props.href}
+                        className={`h-5/6 rounded-md bg-transparent text-white hover:bg-secondary cursor-pointer flex items-center pl-4 pr-4 mr-2`}
+                    >
+                        {props.page}
+                    </Link>
+                )}
+            </>
         );
     }
-
+    
     function DonateNow() {
         return (
             <Link
-                href={"#donate"}
-                className="h-4/6 ml-6 pl-5 pr-5 flex items-center rounded-md text-black bg-primary hover:text-white hover:bg-secondary"
+                // * Project Donation Site
+                href={" https://pacific.scalefunder.com/cfund/project/35830"}
+                target="_blank"
+                className="h-4/6 ml-6 pl-5 pr-5 flex items-center rounded-md text-black bg-tertiary hover:text-white hover:bg-slate-600"
             >
-                DONATE NOW
+                DONATE
             </Link>
         );
     }
@@ -35,9 +58,10 @@ export default function Header(props: any) {
                 </div>
 
                 <HeaderButton href="/" page="Home" />
-                <HeaderButton href="#mission" page="Mission" />
-                <HeaderButton href="#teams" page="Teams" />
-                <HeaderButton href="#sponsors" page="Sponsors" />
+                <HeaderButton href="/mission" page="Mission" />
+                <HeaderButton href="/gallery" page="Gallery" />
+                <HeaderButton href="/teams" page="Teams" />
+                <HeaderButton href="/sponsors" page="Sponsors" />
 
                 <DonateNow />
             </div>
@@ -49,18 +73,14 @@ export default function Header(props: any) {
                     },
                     {
                         color: "000000",
-                        percent: 22,
+                        percent: 20,
                     },
                     {
                         color: "000000",
-                        percent: 32,
+                        percent: 45,
                     },
                     {
                         color: "FF5C02",
-                        percent: 78,
-                    },
-                    {
-                        color: "C1E288",
                         percent: 100,
                     },
                 ]}

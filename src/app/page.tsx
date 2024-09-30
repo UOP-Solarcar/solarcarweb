@@ -60,7 +60,7 @@ export default function Home() {
 
                     <div className="flex flex-col items-center justify-center absolute top-[40px] left-0 right-0">
                         <h1 className="text-2xl">They said we couldn't.</h1>
-                        <h1 className="text-2xl">So we did, poorly.</h1>
+                        <h1 className="text-2xl">So we did.</h1>
                     </div>
 
                     <div className="flex flex-col  bottom-0 w-full absolute">
@@ -121,7 +121,7 @@ export default function Home() {
                     ]}
                 />
 
-                <div className="flex flex-col p-[20px] w-[900px] self-center left-auto right-auto">
+                <div id="leads" className="flex flex-col p-[20px] w-[900px] self-center left-auto right-auto">
                     <div className="text-xl">Meet our Leads</div>
                     <div className="w-[900px] left-0 right-0 pb-10">
                         <h2 className="text-xl font-semibold mb-6">

@@ -11,8 +11,6 @@ export default function Divider(props: any) {
         }
     }
 
-
-
     return (
         <div style={{ background: grad }} className={`h-1 w-full`}></div>
     );
