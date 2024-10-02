@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="h-[450px] bg-black w-[800px] flex flex-row p-[50px] self-center">
                     <div className="w-[400px] flex-col">
                         <div className="font-bold">Team email: </div>
-                        <div className="font-normal underline">
+                        <div className="font-normal whitespace-pre-line underline">
                             <Link
                                 href={"mailto:uopsolarcar@gmail.com"}
                             >{`uopsolarcar@gmail.com`}</Link>
@@ -26,7 +26,7 @@ export default function Footer() {
                         </div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Telephone:</div>
-                        <div className="font-normal whitespace-pre-line">{`+1 ***-***-****`}</div>
+                        <div className="font-normal whitespace-pre-line underline"><Link href={"tel:+12095610140"} target="_blank">{`Founder: +1 209-561-0140`}</Link></div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Faculty Advisor:</div>
                         <div className="font-normal whitespace-pre-line">{`Dongbin Lee`}</div>

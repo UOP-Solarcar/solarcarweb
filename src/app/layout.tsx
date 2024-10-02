@@ -48,7 +48,7 @@ export default function RootLayout({
             </head>
             <body className={`${jura.variable} ${zen.variable} antialiased`}>
                 <Header />
-                {children}
+                    {children}
                 <Footer />
             </body>
         </html>

@@ -5,8 +5,6 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Divider from "./divider";
 
-
-
 export default function Header(props: any) {
     const path = usePathname();
 
@@ -53,15 +51,14 @@ export default function Header(props: any) {
                 <div className="flex flex-col grow items-start">
                     <div className="font-bold text-sm">PACIFIC</div>
                     <div className="font-bold text-md text-primary">
-                        SOLAR CAR PROJECT
+                        <Link href="/"> SOLAR CAR PROJECT</Link>
                     </div>
                 </div>
 
                 <HeaderButton href="/" page="Home" />
                 <HeaderButton href="/mission" page="Mission" />
-                <HeaderButton href="/gallery" page="Gallery" />
-                <HeaderButton href="/teams" page="Teams" />
                 <HeaderButton href="/sponsors" page="Sponsors" />
+                <HeaderButton href="/teams" page="Teams" />
 
                 <DonateNow />
             </div>

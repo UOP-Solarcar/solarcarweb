@@ -1,8 +1,26 @@
+"use client";
+
 import cornerCircle from "@/assets/corner circle.png";
 import circle from "@/assets/circle.png";
 import car from "@/assets/car.png";
 
+import img_1 from "@/assets/gallery/1.jpg";
+import img_2 from "@/assets/gallery/2.jpg";
+import img_3 from "@/assets/gallery/3.jpg";
+
 import Divider from "@/components/divider";
+
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+function CarItem(props: any) {
+    return (
+        <div>
+            <img className="object-cover h-[300px] w-[400px]" src={props.src} />
+            {/* <p className="legend">{props.legend}</p> */}
+        </div>
+    );
+}
 
 function ExecWidget(props: any) {
     return (
@@ -98,6 +116,7 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="h-20"></div>
                 <Divider
                     stops={[
                         {
@@ -120,8 +139,62 @@ export default function Home() {
                         },
                     ]}
                 />
+                <div className="h-20"></div>
 
-                <div id="leads" className="flex flex-col p-[20px] w-[900px] self-center left-auto right-auto">
+                <div className="flex flex-row p-[20px] justify-center">
+                    <div className="flex flex-col">
+                        <div className="text-xl">Latest Progress</div>
+                        <div className="text-sm whitespace-pre-line mt-[20px] ml-[40px]">{`Our team is constantly pushing for\n improvements.\nCheck out our latest advances and even\n our timeline on the right.`}</div>
+                    </div>
+                    <div className="w-[40px]"></div>
+                    <div className="h-[300px] w-[400px] relative  bg-[#515151] rounded-md">
+                        <div className="rounded-xl overflow-hidden">
+                            <Carousel
+                                className="w-full h-96"
+                                autoPlay
+                                infiniteLoop
+                                showThumbs={false} // Hide thumbnails if not needed
+                                showStatus={false} // Hide status if not needed
+                                showArrows={true} // Show navigation arrows if needed
+                                interval={3000} // Set the interval for autoPlay in milliseconds
+                            >
+                                <CarItem src={img_1.src} legend={""} />
+                                <CarItem src={img_2.src} legend={""} />
+                                <CarItem src={img_3.src} legend={""} />
+                            </Carousel>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="h-20"></div>
+                <Divider
+                    stops={[
+                        {
+                            color: "FF5C02",
+                            percent: 0,
+                        },
+                        {
+                            color: "000000",
+                            percent: 37,
+                            opacity: "00",
+                        },
+                        {
+                            color: "000000",
+                            percent: 63,
+                            opacity: "00",
+                        },
+                        {
+                            color: "FF5C02",
+                            percent: 100,
+                        },
+                    ]}
+                />
+                <div className="h-20"></div>
+
+                <div
+                    id="leads"
+                    className="flex flex-col p-[20px] w-[900px] self-center left-auto right-auto"
+                >
                     <div className="text-xl">Meet our Leads</div>
                     <div className="w-[900px] left-0 right-0 pb-10">
                         <h2 className="text-xl font-semibold mb-6">
