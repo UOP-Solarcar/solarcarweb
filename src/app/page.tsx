@@ -17,7 +17,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function CarItem(props: any) {
     return (
         <div>
-            <Image alt={"Pic"} className="object-cover h-[300px] w-[400px]" src={props.src} />
+            <Image alt={"Pic"} className="object-cover h-[300px] w-[400px]" width={props.pic.width * 1/4} height={props.pic.height * 1/4} src={props.pic.src} />
             {/* <p className="legend">{props.legend}</p> */}
         </div>
     );
@@ -159,9 +159,9 @@ export default function Home() {
                                 showArrows={true} // Show navigation arrows if needed
                                 interval={3000} // Set the interval for autoPlay in milliseconds
                             >
-                                <CarItem src={img_1.src} legend={""} />
-                                <CarItem src={img_2.src} legend={""} />
-                                <CarItem src={img_3.src} legend={""} />
+                                <CarItem pic={img_1} legend={""} />
+                                <CarItem pic={img_2} legend={""} />
+                                <CarItem pic={img_3} legend={""} />
                             </Carousel>
                         </div>
                     </div>

@@ -97,95 +97,95 @@ export default function Gallery() {
         <>
             <div className="flex p-5 sm:p-8">
                 <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-                    <Image alt={`pic0png`} src={pic0png.src} />
-                    <Image alt={`pic1png`} src={pic1png.src} />
-                    <Image alt={`pic2png`} src={pic2png.src} />
-                    <Image alt={`pic3png`} src={pic3png.src} />
-                    <Image alt={`pic4png`} src={pic4png.src} />
-                    <Image alt={`pic5png`} src={pic5png.src} />
-                    <Image alt={`pic6png`} src={pic6png.src} />
-                    <Image alt={`pic7png`} src={pic7png.src} />
-                    <Image alt={`pic0jpg`} src={pic0jpg.src} />
-                    <Image alt={`pic1jpg`} src={pic1jpg.src} />
-                    <Image alt={`pic2jpg`} src={pic2jpg.src} />
-                    <Image alt={`pic3jpg`} src={pic3jpg.src} />
-                    <Image alt={`pic4jpg`} src={pic4jpg.src} />
-                    <Image alt={`pic5jpg`} src={pic5jpg.src} />
-                    <Image alt={`pic6jpg`} src={pic6jpg.src} />
-                    <Image alt={`pic7jpg`} src={pic7jpg.src} />
-                    <Image alt={`pic8jpg`} src={pic8jpg.src} />
-                    <Image alt={`pic9jpg`} src={pic9jpg.src} />
-                    <Image alt={`pic10jpg`} src={pic10jpg.src} />
-                    <Image alt={`pic11jpg`} src={pic11jpg.src} />
-                    <Image alt={`pic12jpg`} src={pic12jpg.src} />
-                    <Image alt={`pic13jpg`} src={pic13jpg.src} />
-                    <Image alt={`pic14jpg`} src={pic14jpg.src} />
-                    <Image alt={`pic15jpg`} src={pic15jpg.src} />
-                    <Image alt={`pic16jpg`} src={pic16jpg.src} />
-                    <Image alt={`pic17jpg`} src={pic17jpg.src} />
-                    <Image alt={`pic18jpg`} src={pic18jpg.src} />
-                    <Image alt={`pic19jpg`} src={pic19jpg.src} />
-                    <Image alt={`pic20jpg`} src={pic20jpg.src} />
-                    <Image alt={`pic21jpg`} src={pic21jpg.src} />
-                    <Image alt={`pic22jpg`} src={pic22jpg.src} />
-                    <Image alt={`pic23jpg`} src={pic23jpg.src} />
-                    <Image alt={`pic24jpg`} src={pic24jpg.src} />
-                    <Image alt={`pic25jpg`} src={pic25jpg.src} />
-                    <Image alt={`pic26jpg`} src={pic26jpg.src} />
-                    <Image alt={`pic27jpg`} src={pic27jpg.src} />
-                    <Image alt={`pic28jpg`} src={pic28jpg.src} />
-                    <Image alt={`pic29jpg`} src={pic29jpg.src} />
-                    <Image alt={`pic30jpg`} src={pic30jpg.src} />
-                    <Image alt={`pic31jpg`} src={pic31jpg.src} />
-                    <Image alt={`pic32jpg`} src={pic32jpg.src} />
-                    <Image alt={`pic33jpg`} src={pic33jpg.src} />
-                    <Image alt={`pic34jpg`} src={pic34jpg.src} />
-                    <Image alt={`pic35jpg`} src={pic35jpg.src} />
-                    <Image alt={`pic36jpg`} src={pic36jpg.src} />
-                    <Image alt={`pic37jpg`} src={pic37jpg.src} />
-                    <Image alt={`pic38jpg`} src={pic38jpg.src} />
-                    <Image alt={`pic39jpg`} src={pic39jpg.src} />
-                    <Image alt={`pic40jpg`} src={pic40jpg.src} />
-                    <Image alt={`pic41jpg`} src={pic41jpg.src} />
-                    <Image alt={`pic42jpg`} src={pic42jpg.src} />
-                    <Image alt={`pic43jpg`} src={pic43jpg.src} />
-                    <Image alt={`pic44jpg`} src={pic44jpg.src} />
-                    <Image alt={`pic45jpg`} src={pic45jpg.src} />
-                    <Image alt={`pic46jpg`} src={pic46jpg.src} />
-                    <Image alt={`pic47jpg`} src={pic47jpg.src} />
-                    <Image alt={`pic48jpg`} src={pic48jpg.src} />
-                    <Image alt={`pic49jpg`} src={pic49jpg.src} />
-                    <Image alt={`pic50jpg`} src={pic50jpg.src} />
-                    <Image alt={`pic51jpg`} src={pic51jpg.src} />
-                    <Image alt={`pic52jpg`} src={pic52jpg.src} />
-                    <Image alt={`pic53jpg`} src={pic53jpg.src} />
-                    <Image alt={`pic54jpg`} src={pic54jpg.src} />
-                    <Image alt={`pic55jpg`} src={pic55jpg.src} />
-                    <Image alt={`pic56jpg`} src={pic56jpg.src} />
-                    <Image alt={`pic57jpg`} src={pic57jpg.src} />
-                    <Image alt={`pic58jpg`} src={pic58jpg.src} />
-                    <Image alt={`pic59jpg`} src={pic59jpg.src} />
-                    <Image alt={`pic60jpg`} src={pic60jpg.src} />
-                    <Image alt={`pic61jpg`} src={pic61jpg.src} />
-                    <Image alt={`pic62jpg`} src={pic62jpg.src} />
-                    <Image alt={`pic63jpg`} src={pic63jpg.src} />
-                    <Image alt={`pic64jpg`} src={pic64jpg.src} />
-                    <Image alt={`pic65jpg`} src={pic65jpg.src} />
-                    <Image alt={`pic66jpg`} src={pic66jpg.src} />
-                    <Image alt={`pic67jpg`} src={pic67jpg.src} />
-                    <Image alt={`pic68jpg`} src={pic68jpg.src} />
-                    <Image alt={`pic69jpg`} src={pic69jpg.src} />
-                    <Image alt={`pic70jpg`} src={pic70jpg.src} />
-                    <Image alt={`pic71jpg`} src={pic71jpg.src} />
-                    <Image alt={`pic72jpg`} src={pic72jpg.src} />
-                    <Image alt={`pic73jpg`} src={pic73jpg.src} />
-                    <Image alt={`pic74jpg`} src={pic74jpg.src} />
-                    <Image alt={`pic75jpg`} src={pic75jpg.src} />
-                    <Image alt={`pic76jpg`} src={pic76jpg.src} />
-                    <Image alt={`pic77jpg`} src={pic77jpg.src} />
-                    <Image alt={`pic78jpg`} src={pic78jpg.src} />
-                    <Image alt={`pic79jpg`} src={pic79jpg.src} />
-                    <Image alt={`pic80jpg`} src={pic80jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic0png.width * 1/4)} height={Math.round(pic0png.height * 1/4)} alt={`pic0png`} src={pic0png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic1png.width * 1/4)} height={Math.round(pic1png.height * 1/4)} alt={`pic1png`} src={pic1png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic2png.width * 1/4)} height={Math.round(pic2png.height * 1/4)} alt={`pic2png`} src={pic2png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic3png.width * 1/4)} height={Math.round(pic3png.height * 1/4)} alt={`pic3png`} src={pic3png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic4png.width * 1/4)} height={Math.round(pic4png.height * 1/4)} alt={`pic4png`} src={pic4png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic5png.width * 1/4)} height={Math.round(pic5png.height * 1/4)} alt={`pic5png`} src={pic5png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic6png.width * 1/4)} height={Math.round(pic6png.height * 1/4)} alt={`pic6png`} src={pic6png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic7png.width * 1/4)} height={Math.round(pic7png.height * 1/4)} alt={`pic7png`} src={pic7png.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic0jpg.width * 1/4)} height={Math.round(pic0jpg.height * 1/4)} alt={`pic0jpg`} src={pic0jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic1jpg.width * 1/4)} height={Math.round(pic1jpg.height * 1/4)} alt={`pic1jpg`} src={pic1jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic2jpg.width * 1/4)} height={Math.round(pic2jpg.height * 1/4)} alt={`pic2jpg`} src={pic2jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic3jpg.width * 1/4)} height={Math.round(pic3jpg.height * 1/4)} alt={`pic3jpg`} src={pic3jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic4jpg.width * 1/4)} height={Math.round(pic4jpg.height * 1/4)} alt={`pic4jpg`} src={pic4jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic5jpg.width * 1/4)} height={Math.round(pic5jpg.height * 1/4)} alt={`pic5jpg`} src={pic5jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic6jpg.width * 1/4)} height={Math.round(pic6jpg.height * 1/4)} alt={`pic6jpg`} src={pic6jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic7jpg.width * 1/4)} height={Math.round(pic7jpg.height * 1/4)} alt={`pic7jpg`} src={pic7jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic8jpg.width * 1/4)} height={Math.round(pic8jpg.height * 1/4)} alt={`pic8jpg`} src={pic8jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic9jpg.width * 1/4)} height={Math.round(pic9jpg.height * 1/4)} alt={`pic9jpg`} src={pic9jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic10jpg.width * 1/4)} height={Math.round(pic10jpg.height * 1/4)} alt={`pic10jpg`} src={pic10jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic11jpg.width * 1/4)} height={Math.round(pic11jpg.height * 1/4)} alt={`pic11jpg`} src={pic11jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic12jpg.width * 1/4)} height={Math.round(pic12jpg.height * 1/4)} alt={`pic12jpg`} src={pic12jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic13jpg.width * 1/4)} height={Math.round(pic13jpg.height * 1/4)} alt={`pic13jpg`} src={pic13jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic14jpg.width * 1/4)} height={Math.round(pic14jpg.height * 1/4)} alt={`pic14jpg`} src={pic14jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic15jpg.width * 1/4)} height={Math.round(pic15jpg.height * 1/4)} alt={`pic15jpg`} src={pic15jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic16jpg.width * 1/4)} height={Math.round(pic16jpg.height * 1/4)} alt={`pic16jpg`} src={pic16jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic17jpg.width * 1/4)} height={Math.round(pic17jpg.height * 1/4)} alt={`pic17jpg`} src={pic17jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic18jpg.width * 1/4)} height={Math.round(pic18jpg.height * 1/4)} alt={`pic18jpg`} src={pic18jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic19jpg.width * 1/4)} height={Math.round(pic19jpg.height * 1/4)} alt={`pic19jpg`} src={pic19jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic20jpg.width * 1/4)} height={Math.round(pic20jpg.height * 1/4)} alt={`pic20jpg`} src={pic20jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic21jpg.width * 1/4)} height={Math.round(pic21jpg.height * 1/4)} alt={`pic21jpg`} src={pic21jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic22jpg.width * 1/4)} height={Math.round(pic22jpg.height * 1/4)} alt={`pic22jpg`} src={pic22jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic23jpg.width * 1/4)} height={Math.round(pic23jpg.height * 1/4)} alt={`pic23jpg`} src={pic23jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic24jpg.width * 1/4)} height={Math.round(pic24jpg.height * 1/4)} alt={`pic24jpg`} src={pic24jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic25jpg.width * 1/4)} height={Math.round(pic25jpg.height * 1/4)} alt={`pic25jpg`} src={pic25jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic26jpg.width * 1/4)} height={Math.round(pic26jpg.height * 1/4)} alt={`pic26jpg`} src={pic26jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic27jpg.width * 1/4)} height={Math.round(pic27jpg.height * 1/4)} alt={`pic27jpg`} src={pic27jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic28jpg.width * 1/4)} height={Math.round(pic28jpg.height * 1/4)} alt={`pic28jpg`} src={pic28jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic29jpg.width * 1/4)} height={Math.round(pic29jpg.height * 1/4)} alt={`pic29jpg`} src={pic29jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic30jpg.width * 1/4)} height={Math.round(pic30jpg.height * 1/4)} alt={`pic30jpg`} src={pic30jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic31jpg.width * 1/4)} height={Math.round(pic31jpg.height * 1/4)} alt={`pic31jpg`} src={pic31jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic32jpg.width * 1/4)} height={Math.round(pic32jpg.height * 1/4)} alt={`pic32jpg`} src={pic32jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic33jpg.width * 1/4)} height={Math.round(pic33jpg.height * 1/4)} alt={`pic33jpg`} src={pic33jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic34jpg.width * 1/4)} height={Math.round(pic34jpg.height * 1/4)} alt={`pic34jpg`} src={pic34jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic35jpg.width * 1/4)} height={Math.round(pic35jpg.height * 1/4)} alt={`pic35jpg`} src={pic35jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic36jpg.width * 1/4)} height={Math.round(pic36jpg.height * 1/4)} alt={`pic36jpg`} src={pic36jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic37jpg.width * 1/4)} height={Math.round(pic37jpg.height * 1/4)} alt={`pic37jpg`} src={pic37jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic38jpg.width * 1/4)} height={Math.round(pic38jpg.height * 1/4)} alt={`pic38jpg`} src={pic38jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic39jpg.width * 1/4)} height={Math.round(pic39jpg.height * 1/4)} alt={`pic39jpg`} src={pic39jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic40jpg.width * 1/4)} height={Math.round(pic40jpg.height * 1/4)} alt={`pic40jpg`} src={pic40jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic41jpg.width * 1/4)} height={Math.round(pic41jpg.height * 1/4)} alt={`pic41jpg`} src={pic41jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic42jpg.width * 1/4)} height={Math.round(pic42jpg.height * 1/4)} alt={`pic42jpg`} src={pic42jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic43jpg.width * 1/4)} height={Math.round(pic43jpg.height * 1/4)} alt={`pic43jpg`} src={pic43jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic44jpg.width * 1/4)} height={Math.round(pic44jpg.height * 1/4)} alt={`pic44jpg`} src={pic44jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic45jpg.width * 1/4)} height={Math.round(pic45jpg.height * 1/4)} alt={`pic45jpg`} src={pic45jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic46jpg.width * 1/4)} height={Math.round(pic46jpg.height * 1/4)} alt={`pic46jpg`} src={pic46jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic47jpg.width * 1/4)} height={Math.round(pic47jpg.height * 1/4)} alt={`pic47jpg`} src={pic47jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic48jpg.width * 1/4)} height={Math.round(pic48jpg.height * 1/4)} alt={`pic48jpg`} src={pic48jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic49jpg.width * 1/4)} height={Math.round(pic49jpg.height * 1/4)} alt={`pic49jpg`} src={pic49jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic50jpg.width * 1/4)} height={Math.round(pic50jpg.height * 1/4)} alt={`pic50jpg`} src={pic50jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic51jpg.width * 1/4)} height={Math.round(pic51jpg.height * 1/4)} alt={`pic51jpg`} src={pic51jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic52jpg.width * 1/4)} height={Math.round(pic52jpg.height * 1/4)} alt={`pic52jpg`} src={pic52jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic53jpg.width * 1/4)} height={Math.round(pic53jpg.height * 1/4)} alt={`pic53jpg`} src={pic53jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic54jpg.width * 1/4)} height={Math.round(pic54jpg.height * 1/4)} alt={`pic54jpg`} src={pic54jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic55jpg.width * 1/4)} height={Math.round(pic55jpg.height * 1/4)} alt={`pic55jpg`} src={pic55jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic56jpg.width * 1/4)} height={Math.round(pic56jpg.height * 1/4)} alt={`pic56jpg`} src={pic56jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic57jpg.width * 1/4)} height={Math.round(pic57jpg.height * 1/4)} alt={`pic57jpg`} src={pic57jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic58jpg.width * 1/4)} height={Math.round(pic58jpg.height * 1/4)} alt={`pic58jpg`} src={pic58jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic59jpg.width * 1/4)} height={Math.round(pic59jpg.height * 1/4)} alt={`pic59jpg`} src={pic59jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic60jpg.width * 1/4)} height={Math.round(pic60jpg.height * 1/4)} alt={`pic60jpg`} src={pic60jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic61jpg.width * 1/4)} height={Math.round(pic61jpg.height * 1/4)} alt={`pic61jpg`} src={pic61jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic62jpg.width * 1/4)} height={Math.round(pic62jpg.height * 1/4)} alt={`pic62jpg`} src={pic62jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic63jpg.width * 1/4)} height={Math.round(pic63jpg.height * 1/4)} alt={`pic63jpg`} src={pic63jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic64jpg.width * 1/4)} height={Math.round(pic64jpg.height * 1/4)} alt={`pic64jpg`} src={pic64jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic65jpg.width * 1/4)} height={Math.round(pic65jpg.height * 1/4)} alt={`pic65jpg`} src={pic65jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic66jpg.width * 1/4)} height={Math.round(pic66jpg.height * 1/4)} alt={`pic66jpg`} src={pic66jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic67jpg.width * 1/4)} height={Math.round(pic67jpg.height * 1/4)} alt={`pic67jpg`} src={pic67jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic68jpg.width * 1/4)} height={Math.round(pic68jpg.height * 1/4)} alt={`pic68jpg`} src={pic68jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic69jpg.width * 1/4)} height={Math.round(pic69jpg.height * 1/4)} alt={`pic69jpg`} src={pic69jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic70jpg.width * 1/4)} height={Math.round(pic70jpg.height * 1/4)} alt={`pic70jpg`} src={pic70jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic71jpg.width * 1/4)} height={Math.round(pic71jpg.height * 1/4)} alt={`pic71jpg`} src={pic71jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic72jpg.width * 1/4)} height={Math.round(pic72jpg.height * 1/4)} alt={`pic72jpg`} src={pic72jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic73jpg.width * 1/4)} height={Math.round(pic73jpg.height * 1/4)} alt={`pic73jpg`} src={pic73jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic74jpg.width * 1/4)} height={Math.round(pic74jpg.height * 1/4)} alt={`pic74jpg`} src={pic74jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic75jpg.width * 1/4)} height={Math.round(pic75jpg.height * 1/4)} alt={`pic75jpg`} src={pic75jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic76jpg.width * 1/4)} height={Math.round(pic76jpg.height * 1/4)} alt={`pic76jpg`} src={pic76jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic77jpg.width * 1/4)} height={Math.round(pic77jpg.height * 1/4)} alt={`pic77jpg`} src={pic77jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic78jpg.width * 1/4)} height={Math.round(pic78jpg.height * 1/4)} alt={`pic78jpg`} src={pic78jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic79jpg.width * 1/4)} height={Math.round(pic79jpg.height * 1/4)} alt={`pic79jpg`} src={pic79jpg.src} />
+                    <Image className={"w-[100%] h-auto"} width={Math.round(pic80jpg.width * 1/4)} height={Math.round(pic80jpg.height * 1/4)} alt={`pic80jpg`} src={pic80jpg.src} />
                 </div>
             </div>
         </>
