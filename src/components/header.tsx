@@ -5,11 +5,11 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Divider from "./divider";
 
-export default function Header(props: any) {
+export default function Header() {
     const path = usePathname();
 
     function HeaderButton(props: any) {
-        let active: boolean = (path == props.href);
+        const active: boolean = (path == props.href);
     
         return (
             <>
@@ -56,6 +56,7 @@ export default function Header(props: any) {
                 </div>
 
                 <HeaderButton href="/" page="Home" />
+                <HeaderButton href="/gallery" page="Gallery" />
                 <HeaderButton href="/mission" page="Mission" />
                 <HeaderButton href="/sponsors" page="Sponsors" />
                 <HeaderButton href="/teams" page="Teams" />

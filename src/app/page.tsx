@@ -10,13 +10,14 @@ import img_3 from "@/assets/gallery/3.jpg";
 
 import Divider from "@/components/divider";
 
+import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function CarItem(props: any) {
     return (
         <div>
-            <img className="object-cover h-[300px] w-[400px]" src={props.src} />
+            <Image alt={"Pic"} className="object-cover h-[300px] w-[400px]" src={props.src} />
             {/* <p className="legend">{props.legend}</p> */}
         </div>
     );
@@ -77,7 +78,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex flex-col items-center justify-center absolute top-[40px] left-0 right-0">
-                        <h1 className="text-2xl">They said we couldn't.</h1>
+                        <h1 className="text-2xl">They said we couldn&apos;t.</h1>
                         <h1 className="text-2xl">So we did.</h1>
                     </div>
 
@@ -110,7 +111,7 @@ export default function Home() {
                         </div>
                         <div className="h-[20px]"></div>
                         <div className="self-center text-sm">
-                            University of the Pacific's first student-led solar
+                            University of the Pacific&apos;s first student-led solar
                             car team.
                         </div>
                     </div>
