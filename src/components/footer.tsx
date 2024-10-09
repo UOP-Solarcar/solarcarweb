@@ -1,6 +1,5 @@
-import insta from "@/assets/insta.png";
-import logo from "@/assets/logo.png";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -26,7 +25,12 @@ export default function Footer() {
                         </div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Telephone:</div>
-                        <div className="font-normal whitespace-pre-line underline"><Link href={"tel:+12095610140"} target="_blank">{`Founder: +1 209-561-0140`}</Link></div>
+                        <div className="font-normal whitespace-pre-line underline">
+                            <Link
+                                href={"tel:+12095610140"}
+                                target="_blank"
+                            >{`Founder: +1 209-561-0140`}</Link>
+                        </div>
                         <div className="h-[20px]"></div>
                         <div className="font-bold">Faculty Advisor:</div>
                         <div className="font-normal whitespace-pre-line">{`Dongbin Lee`}</div>
@@ -43,9 +47,12 @@ export default function Footer() {
                         <div className="h-[20px]"></div>
                         <div className="flex flex-row items-center">
                             <div className="h-[40px] w-[40px] rounded-md flex items-center justify-center bg-[#450696]">
-                                <img
+                                <Image
+                                    width={40}
+                                    height={40}
                                     className="h-[30px] w-[30px]"
-                                    src={insta.src}
+                                    src="/insta.png"
+                                    alt="InstaLogo"
                                 />
                             </div>
                             <div className="w-[10px]"></div>
@@ -61,7 +68,12 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="h-[200px] w-[200px]">
-                            <img src={logo.src}></img>
+                            <Image
+                                width={200}
+                                height={200}
+                                src="/logo.png"
+                                alt={"Logo"}
+                            />
                         </div>
                     </div>
                     <div className="w-[20px]"></div>

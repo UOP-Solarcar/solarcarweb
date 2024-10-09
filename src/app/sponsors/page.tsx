@@ -1,21 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-
-import pdmLogo from "@/assets/sponsor/PDMLogoColor.png";
-import shulMotorsLogo from "@/assets/sponsor/3ShulMotors.png";
-import pmtLogo from "@/assets/sponsor/PMT.webp";
-import homeDepotLogo from "@/assets/sponsor/HomeDepot.png";
-import tapLogo from "@/assets/sponsor/TAP-Logo.png";
-import weldMonkeyLogo from "@/assets/sponsor/weldmonkey.png";
-import maxeonLogo from "@/assets/sponsor/maxeon.png";
-import solidworksLogo from "@/assets/sponsor/SolidWorks.jpg";
-import ansysLogo from "@/assets/sponsor/ansys.jpg";
-import westCoastCanvasLogo from "@/assets/sponsor/westcoastcanvas.webp";
-import regeneronLogo from "@/assets/sponsor/regeneron.png";
-import aascLogo from "@/assets/sponsor/aasc.png";
-import mesaLogo from "@/assets/sponsor/mesa.png";
-import soecsLogo from "@/assets/sponsor/soecs.png";
-
 
 function SponsorWidget(props: any) {
     return (
@@ -27,11 +10,9 @@ function SponsorWidget(props: any) {
                 <div className="h-[10px]"></div>
                 <div className="">
                     <Link href={props.href} target="_blank">
-                        <Image
-                            width={props.pic.width}
-                            height={props.pic.height}
+                        <img
                             alt={`${props.name} pic`}
-                            src={props.pic.src}
+                            src={props.src}
                         />
                     </Link>
                 </div>
@@ -54,72 +35,72 @@ export default function Sponsors() {
                         <div className="grid grid-cols-3 gap-6">
                             <SponsorWidget
                                 name="PDM Steel"
-                                pic={pdmLogo}
+                                src="/sponsor/pdm.png"
                                 href={"https://pdmsteel.com/"}
                             />
                             <SponsorWidget
                                 name="3 Shul Motors"
-                                pic={shulMotorsLogo}
+                                src="/sponsor/3_shul_motors.png"
                                 href={"https://3shulmotors.com/"}
                             />
                             <SponsorWidget
                                 name="PMT"
-                                pic={pmtLogo}
+                                src="/sponsor/pmt.webp"
                                 href={"https://www.patzmandt.com/"}
                             />
                             <SponsorWidget
                                 name="Home Depot"
-                                pic={homeDepotLogo}
+                                src="/sponsor/home_depot.png"
                                 href={"https://www.homedepot.com/"}
                             />
                             <SponsorWidget
                                 name="TAP Plastic"
-                                pic={tapLogo}
+                                src="/sponsor/tap.png"
                                 href={"https://www.tapplastics.com/"}
                             />
                             <SponsorWidget
                                 name="Weld Monkey"
-                                pic={weldMonkeyLogo}
+                                src="/sponsor/weldmonkey.png"
                                 href={"https://weldmonkey.com/"}
                             />
                             <SponsorWidget
                                 name="Maxeon"
-                                pic={maxeonLogo}
+                                src="/sponsor/maxeon.png"
                                 href={"https://maxeon.com/"}
                             />
                             <SponsorWidget
                                 name="Solid Works"
-                                pic={solidworksLogo}
+                                src="/sponsor/solid_works.jpg"
                                 href={"https://www.solidworks.com/"}
                             />
                             <SponsorWidget
                                 name="ANSYS"
-                                pic={ansysLogo}
+                                src="/sponsor/ansys.jpg"
                                 href={"https://www.solidworks.com/"}
                             />
                             <SponsorWidget
                                 name="West Coast Canvas"
-                                pic={westCoastCanvasLogo}
+                                src="/sponsor/west_coast_canvas.webp"
                                 href={"https://westcoastcanvas.com/"}
                             />
                             <SponsorWidget
                                 name="Regeneron"
-                                pic={regeneronLogo}
+                                src="/sponsor/regeneron.png"
                                 href={"https://www.regeneron.com/"}
                             />
                             <SponsorWidget
                                 name="AASC"
-                                pic={aascLogo}
+                                src="/sponsor/aasc.png"
                                 href={"https://www.aascworld.com/"}
                             />
                             <SponsorWidget
                                 name="MESA"
-                                pic={mesaLogo}
+                                src="/sponsor/mesa.png"
                                 href={"https://www.pacific-mesa.com/"}
                             />
                             <SponsorWidget
                                 name="SOECS"
-                                pic={soecsLogo}
+                                src="/sponsor/soecs.png"
                                 href={"https://www.pacific.edu/engineering"}
                             />
                         </div>

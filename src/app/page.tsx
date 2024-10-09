@@ -1,23 +1,14 @@
 "use client";
 
-import cornerCircle from "@/assets/corner circle.png";
-import circle from "@/assets/circle.png";
-import car from "@/assets/car.png";
-
-import img_1 from "@/assets/gallery/1.jpg";
-import img_2 from "@/assets/gallery/2.jpg";
-import img_3 from "@/assets/gallery/3.jpg";
-
-import Divider from "@/components/divider";
-
 import Image from "next/image";
+import Divider from "@/components/divider";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function CarItem(props: any) {
     return (
-        <div>
-            <Image alt={"Pic"} className="object-cover h-[300px] w-[400px]" width={props.pic.width * 1/4} height={props.pic.height * 1/4} src={props.pic.src} />
+        <div className="">
+            <Image width="400" height="300" alt={"Pic"} className="object-cover h-[300px] w-[400px]" src={props.src} />
             {/* <p className="legend">{props.legend}</p> */}
         </div>
     );
@@ -59,20 +50,20 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center">
                 <div className="h-[510px] w-full relative">
                     <img
-                        src={cornerCircle.src}
+                        src="/corner circle.png"
                         className="w-[40%] absolute top-0 left-0 object-cover"
                     ></img>
 
                     <div className="w-full flex items-top justify-center  absolute top-[0px] left-0 right-0">
                         <img
-                            src={circle.src}
+                            src="/circle.png"
                             className="w-[900px] ml-[40px] object-cover"
                         ></img>
                     </div>
 
                     <div className="w-full flex items-top justify-center h-[300px] absolute top-[125px]">
                         <img
-                            src={car.src}
+                            src="/car.png"
                             className="w-[600px] h-[260px] object-cover"
                         ></img>
                     </div>
@@ -159,9 +150,9 @@ export default function Home() {
                                 showArrows={true} // Show navigation arrows if needed
                                 interval={3000} // Set the interval for autoPlay in milliseconds
                             >
-                                <CarItem pic={img_1} legend={""} />
-                                <CarItem pic={img_2} legend={""} />
-                                <CarItem pic={img_3} legend={""} />
+                                <CarItem src={"/gallery/1.png"} legend={""} />
+                                <CarItem src={"/gallery/2.png"} legend={""} />
+                                <CarItem src={"/gallery/3.png"} legend={""} />
                             </Carousel>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
-import team_photo from "@/assets/gallery/team_photo.jpg";
+import Image from "next/image";
 
+import team_photo from "@/assets/gallery/team_photo.jpg";
 
 export default function Mission() {
     return (
@@ -16,7 +17,7 @@ export default function Mission() {
                 
                 <div className="h-5"></div>
                 
-                <img className="w-3/5 h-auto rounded-3xl overflow-hidden" src={team_photo.src}/>
+                <Image width={1000} height={800} className="min-w-200 max-w-4/5 h-auto  rounded-3xl overflow-hidden" src="/gallery/team_photo.jpg" alt={"Team Photo"}/>
 
                 <div className="h-5"></div>
             </div>

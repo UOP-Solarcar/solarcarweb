@@ -9,29 +9,24 @@ export default function Header() {
     const path = usePathname();
 
     function HeaderButton(props: any) {
-        const active: boolean = (path == props.href);
-    
+        const active: boolean = path == props.href;
+
         return (
             <>
-                {active ? (
-                    <Link
-                        href={props.href}
-                        className={`h-5/6 rounded-md bg-primary text-black hover:bg-secondary cursor-pointer flex items-center pl-4 pr-4 mr-2`}
-                    >
-                        {props.page}
-                    </Link>
-                ) : (
-                    <Link
-                        href={props.href}
-                        className={`h-5/6 rounded-md bg-transparent text-white hover:bg-secondary cursor-pointer flex items-center pl-4 pr-4 mr-2`}
-                    >
-                        {props.page}
-                    </Link>
-                )}
+                <Link
+                    href={props.href}
+                    className={`h-5/6 rounded-md ${
+                        active
+                            ? `bg-primary text-black hover:bg-secondary `
+                            : `bg-transparent text-white hover:bg-secondary`
+                    } cursor-pointer flex items-center pl-4 pr-4 mr-2`}
+                >
+                    {props.page}
+                </Link>
             </>
         );
     }
-    
+
     function DonateNow() {
         return (
             <Link
@@ -47,7 +42,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="h-14 bg-black flex flex-row pl-4 pr-4 items-center">
+            <div className="w-full h-14 bg-black flex flex-row pl-4 pr-4 items-center">
                 <div className="flex flex-col grow items-start">
                     <div className="font-bold text-sm">PACIFIC</div>
                     <div className="font-bold text-md text-primary">
@@ -60,7 +55,6 @@ export default function Header() {
                 <HeaderButton href="/mission" page="Mission" />
                 <HeaderButton href="/sponsors" page="Sponsors" />
                 <HeaderButton href="/teams" page="Teams" />
-
                 <DonateNow />
             </div>
             <Divider
