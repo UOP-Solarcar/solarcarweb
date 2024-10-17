@@ -1,10 +1,8 @@
-import Image from "next/image";
-
 export default function Gallery() {
-    let pngCount = 7;
-    let jpgCount = 80;
+    const pngCount = 7;
+    const jpgCount = 80;
 
-    let imageElements: JSX.Element[] = [];
+    const imageElements: JSX.Element[] = [];
 
     for (let x = 0; x <= pngCount; x++) {
         imageElements.push(

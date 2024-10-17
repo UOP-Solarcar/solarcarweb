@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import team_photo from "@/assets/gallery/team_photo.jpg";
-
 export default function Mission() {
     return (
         <>
